@@ -1,0 +1,106 @@
+#blue{color: #0000CC; font-family: Tahoma;}
+#blue_2{color: #3366FF;font-family: Tahoma;}
+#brown{color: #996633;font-family: Times;}
+#brown_2{color: #CC6600;font-family: Times;}
+a:link {color:#0000CC; text-decoration:none; font-size: 13 pt}
+a:visited {color:#0000CC; text-decoration:none}
+a:active {color:black; text-decoration:none;color: #FFA500}
+a:hover {text-decoration:underline; color: #FFA500} 
+#main_h1{text-align: left	; color: navy;font-family: Verdana;font-size: 20 pt}
+#main_h2{text-align: left; color: navy;font-family: Verdana;font-size: 16 pt}
+#main_p{text-align: justify;color: #191970;font-family: Arial;font-size: 12 pt;font-weight: bold;}
+{
+	margin: 0;
+	padding: 0;
+	font-size: 18pt;
+}
+
+body{
+	padding: 0;
+}
+#shapka{
+	height: 200px;
+	width: 100%;
+}
+#conteiner{
+	width: 100%;
+	height: 1000px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#top{	
+	width:  100%;
+	height:  200px;
+}
+#left_bar{
+	width: 20%;
+	height: 100%;
+	background: #CCFFFF;
+	float: left;
+}
+#main{
+	width: 80%;
+	height: 100%;
+	background-image: url(../myhouse/public_html/fon9.jpg);
+	float: left;
+}
+#parent{
+	position: relative;
+	width: 100%;
+	height: 1000px;
+}
+#child{
+	position:  absolute;
+	top: 20px;
+	left: 20px;
+	width: 400px ;
+	height: 290px;
+	background-image: url("project.jpg") ;
+	border:  2px solid #FFFFFF;
+}
+#child_2{
+	position:  absolute;
+	top: 180px;
+	left: 320px;
+	width: 300px ;
+	height: 180px;
+	background-image: url("project_1.jpg") ;
+	border:  2px solid #FFFFFF;
+}
+#child_3{
+	position:  absolute;
+	top: 250px;
+	left: 520px;
+	width: 300px ;
+	height: 180px;
+	background-image: url("project_2.jpg") ;
+	border:  2px solid #FFFFFF;
+}
+#child_4{
+	position:  absolute;
+	top: 350px;
+	left: 20px;
+	width: 200px ;
+	height: 150px;
+	background-image: url("project_5.jpg") ;
+	border:  2px solid #FFFFFF;
+}
+#child_5{
+	position:  absolute;
+	top: 420px;
+	left: 210px;
+	width: 200px ;
+	height: 150px;
+	background-image: url("project_4.jpg") ;
+	border:  2px solid #FFFFFF;
+}
+#child_6{
+	position:  absolute;
+	top: 500px;
+	left: 380px;
+	width: 200px ;
+	height: 150px;
+	background-image: url("project_6.jpg") ;
+	border:  2px solid #FFFFFF;
+}
